@@ -1,0 +1,34 @@
+main:
+.LFB0:
+    subq $8, %rsp
+    movq %r11, (%rsp)
+    cbge $1, %rsi, .L5
+    movq (%rdi), %r9
+    leaq 8(%rdi), %rdx
+    movq $1, %ecx
+    xorq %r10d, %r10d
+    jmp .L4
+.L10:
+    addq $1, %rcx
+    addq $8, %rdx
+    leaq (%rdi, %r10, 8), %rax
+    cbe %rsi, %rcx, .L9
+.L4:
+    movq (%rdx), %r8
+    movq %rdx, %rax
+    cbge %r9, %r8, .L10
+    movq %rcx, %r10
+    addq $1, %rcx
+    addq $8, %rdx
+    movq %r8, %r9
+    cbne %rsi, %rcx, .L4
+.L9:
+    movq (%rsp), %r11
+    addq $8, %rsp
+    ret %r11
+.L5:
+    movq %rdi, %rax
+    movq (%rsp), %r11
+    addq $8, %rsp
+    ret %r11
+.LFE0:
