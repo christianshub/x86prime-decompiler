@@ -3,7 +3,7 @@ x86prime is a x86 subset for learning the basics of assembly. The tool has been 
 and Michael Kirkedal Thomsen 2018 (https://github.com/finnschiermer/x86prime). Documentation can be found at
 https://x86prime.github.io/x86prime/
 
-x86prime-decompiler assists in translating each instruction for a better overview of the entire structure of the
+x86prime-asm-translation assists in translating each instruction for a better overview of the entire structure of the
 assembly code in question.
 
 ---------------------------------------------------------------------------------------------------
