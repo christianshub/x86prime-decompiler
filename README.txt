@@ -1,5 +1,5 @@
 - Description:
-x86prime is a x86 subset for learning the basics of assembly. The tool has been created by Finn Schiermer Andersen and Michael Kirkedal Thomsen 2018 (https://github.com/finnschiermer/x86prime).
+x86prime is a x86 subset for learning the basics of assembly. The tool has been created by Finn Schiermer Andersen and Michael Kirkedal Thomsen 2018 (https://github.com/finnschiermer/x86prime). Documentation can be found at https://x86prime.github.io/x86prime/
 
 x86prime-decompiler assists in translating each instruction for a better overview of the entire structure of the assembly code in question.
 
