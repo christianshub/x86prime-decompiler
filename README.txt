@@ -1,7 +1,12 @@
----------------------------------------------------------------------------------------------------
-- Instruction:
+- Description:
+x86prime is a x86 subset for learning the basics of assembly. The tool has been created by Finn Schiermer Andersen and Michael Kirkedal Thomsen 2018 (https://github.com/finnschiermer/x86prime).
 
-Insert the exam's x86-prime instructions into "test.prime", then execute "run.py".
+x86prime-decompiler assists in translating each instruction for a better overview of the entire structure of the assembly code in question.
+
+---------------------------------------------------------------------------------------------------
+- How-to:
+
+Insert the x86-prime instructions into "test.prime", then execute "run.py".
 
 ---------------------------------------------------------------------------------------------------
 - Example before run.py:
