@@ -13,7 +13,7 @@ Insert the x86-prime instructions into "test.prime", then execute "run.py".
 
 ## Usage example
 
-#### before run.py:
+#### Before run.py:
 
 ```asm
 program:
@@ -33,7 +33,7 @@ addq $16, %rsp
 ret %r11
 ```
 
-#### Example after run.py:
+#### After run.py:
 
 ```asm
 Line  1: program:                        # function
