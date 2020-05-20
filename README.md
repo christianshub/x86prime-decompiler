@@ -1,9 +1,11 @@
-## Description
-x86prime is a x86 subset for learning the basics of assembly. The tool has been created by Finn Schiermer Andersen
-and Michael Kirkedal Thomsen 2018 (https://github.com/finnschiermer/x86prime). Documentation can be found at
-https://x86prime.github.io/x86prime/
+## What is x86prime
+x86prime was created by Finn Schiermer Andersen and Michael Kirkedal Thomsen in 2018. x86prime is a x86 subset created to learn DIKU students the basics of x86 assembly. 
 
-x86prime-asm-translation assists in translating each instruction for a better overview of the entire structure of the
+- x86prime repo: https://github.com/finnschiermer/x86prime
+- documentation: https://x86prime.github.io/x86prime/
+
+## What is x86prime-asm-translation
+This tool assists in translating each instruction for a better overview of the entire structure of the
 assembly code in question.
 
 ## How-to
@@ -29,7 +31,8 @@ imulq %rbx, %rax
 movq (%rsp), %rbx
 movq 8(%rsp), %r11
 addq $16, %rsp
-ret %r11```
+ret %r11
+```
 
 #### Example after run.py:
 
@@ -50,4 +53,5 @@ Line 11: imulq %rbx, %rax                # Line 11: %rax = %rax unsigned multipl
 Line 12: movq (%rsp), %rbx               # Line 12: %rbx = (%rsp)
 Line 13: movq 8(%rsp), %r11              # Line 13: %r11 = 8(%rsp)
 Line 14: addq $16, %rsp                  # Line 14: %rsp = %rsp add (+) $16
-Line 15: ret %r11                        # Line 15: return %r11```
+Line 15: ret %r11                        # Line 15: return %r11
+```
