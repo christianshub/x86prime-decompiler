@@ -5,7 +5,7 @@ x86prime was created by Finn Schiermer Andersen and Michael Kirkedal Thomsen in 
 - documentation: https://x86prime.github.io/x86prime/
 
 ## What is x86prime-asm-translation
-This tool adds a comment on each line of what each instruction mean. 
+This tool adds a comment at each assembly line, explaining what each instruction mean. 
 
 ## How-to
 
